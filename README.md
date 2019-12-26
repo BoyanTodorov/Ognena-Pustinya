@@ -1,6 +1,8 @@
 ![Огнена Пустиня](./images/cover.jpg)
 
-![Огнена Пустиня](./images/intro-book.png) | ![Огнена Пустиня](./images/intro.png)
+![Огнена Пустиня](./images/intro-book.png)
+
+![Огнена Пустиня](./images/intro.png)
 
 ![Карта на Огнената Пустиня](./images/map.png)
 

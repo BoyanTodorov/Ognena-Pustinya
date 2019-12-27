@@ -1,1 +1,1 @@
-[![Огнена Пустиня](./images/front-cover.jpg)](./intro)
+[![Огнена Пустиня](./images/front-cover.jpg)](./preface.md)

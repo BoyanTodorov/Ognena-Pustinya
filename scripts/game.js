@@ -1,5 +1,5 @@
 function init() {
-    a = 'It\'s Alive'
+    sessionStorage.setItem('data', 'It\'s Alive')
 }
 
 function inc() {

@@ -4,9 +4,8 @@ function init() {
 
 function inc() {
     sessionStorage.setItem('data', a + 'e')
-    a = sessionStorage.getItem('data')
 }
 
 function print() {
-    console.log(a)
+    console.log(sessionStorage.getItem('data'))
 }

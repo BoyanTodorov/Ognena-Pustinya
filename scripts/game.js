@@ -3,7 +3,7 @@ function init() {
 }
 
 function inc() {
-    sessionStorage.setItem('data', a + 'e')
+    sessionStorage.setItem('data', sessionStorage.getItem('data') + 'e')
 }
 
 function print() {

@@ -1,9 +1,9 @@
 function init() {
-    sessionStorage.setItem('data', 'It\'s Alive')
+    sessionStorage.setItem('data', 0)
 }
 
 function inc() {
-    sessionStorage.setItem('data', sessionStorage.getItem('data') + 'e')
+    sessionStorage.setItem('data', sessionStorage.getItem('data') + 1)
 }
 
 function print() {

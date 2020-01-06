@@ -1,9 +1,12 @@
-sessionStorage.setItem('data', 'It\'s Alive')
-
-let a = sessionStorage.getItem('data')
+function init() {
+    a = 'It\'s Alive'
+}
 
 function inc() {
-    sessionStorage.setItem('data', 'It\'s Aliveeee ...')
+    sessionStorage.setItem('data', a + 'e')
     a = sessionStorage.getItem('data')
+}
+
+function print() {
     console.log(a)
 }

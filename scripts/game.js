@@ -1,6 +1,7 @@
-localStorage.a = 0
+sessionStorage.setItem('data', 'It\'s Alive')
 
+a = sessionStorage.getItem('data');
 function inc() {
-    localStorage.a++
-    console.log(localStorage.a)
+    sessionStorage.setItem('data', 'It\'s Alive' + 11)
+    console.log(a)
 }

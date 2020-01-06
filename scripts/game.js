@@ -7,5 +7,5 @@ function inc() {
 }
 
 function print() {
-    console.log(sessionStorage.getItem('data'))
+    return (sessionStorage.getItem('data'))
 }
